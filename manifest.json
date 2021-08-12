@@ -1,0 +1,6 @@
+{
+	"name": "MU-Contrast-Checker"
+	"version": "1.0",
+	"description": "Automatically checks for contrast on webpages"
+	"manifest_version": 2
+}
