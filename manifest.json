@@ -1,6 +1,22 @@
 {
+	// Required
 	"name": "MU-Contrast-Checker",
 	"version": "1.0",
+	"manifest_version": 2,
+	
+	// Recommended
 	"description": "Automatically checks for contrast on webpages",
-	"manifest_version": 2
+	"icons": {
+		"128": "images/mulogo.png"
+	},
+	
+	// Type of action: Broswer, page, or more
+	"browser_action": {
+		"default_title": "Contrast changed!",
+		"default_popup": "popup.html"
+	},
+	// intent of app, what sites you will access from user
+	"permissions": [
+		"http://*/*", "https://*/*"
+	]
 }
